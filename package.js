@@ -13,8 +13,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
   api.use("underscore");
-  api.use("mongo","server");
-  api.use("minimongo","client");
+  api.use("mongo");
+  api.use("minimongo");
   api.addFiles('lib/common.js');
   api.addFiles('lib/server.js','server');
   api.addFiles('lib/client.js','client');
